@@ -44,18 +44,18 @@ function App() {
         </div>
 
 
-      <div className="flex mx-auto mt-10 w-[450px]">
-      <div className='mx-auto'>
+      <div className="flex mx-auto mt-10 lg:w-[450px] ">
+      <div className='mx-auto w-52 '>
 <a href="https://open.spotify.com/user/22spckdubd6yfkzcta3nj562a?si=KdTpFjp4Td6PhGa_4w4VSw&utm_source=copy-link" target={'https://open.spotify.com/user/22spckdubd6yfkzcta3nj562a?si=KdTpFjp4Td6PhGa_4w4VSw&utm_source=copy-link'}>
-        <img className='max-w-[30%] mx-auto transition  hover:animate-ping' src={spotifya} alt="" /></a>
+        <img className='max-w-[30%] m-0 mx-auto p-0 transition  hover:animate-ping' src={spotifya} alt="" /></a>
       </div>
-      <div>
+      <div className='w-52 '>
 <a href="https://www.discord.com/users/814431111827685407" target={'https://www.discord.com/users/814431111827685407'}>
-        <img className='w-[30%] mx-auto transition  hover:animate-ping' src={discorda} alt="" /></a>
+        <img className='w-[30%]  m-0 p-0 mx-auto transition  hover:animate-ping' src={discorda} alt="" /></a>
       </div>
-      <div>
+      <div className='w-52 '>
 <a href="https://www.facebook.com/profile.php?id=100087382662427&mibextid=ZbWKwL" target={'https://www.facebook.com/profile.php?id=100087382662427&mibextid=ZbWKwL'}>
-        <img className='w-[30%] mx-auto transition hover:animate-ping' src={facebooka} alt="" /></a>
+        <img className='w-[30%] m-0 p-0 mx-auto transition hover:animate-ping' src={facebooka} alt="" /></a>
       </div>
 </div>
       </div>
